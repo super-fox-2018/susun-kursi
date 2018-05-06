@@ -35,7 +35,7 @@ function managePerson(arr, rowSeats) {
 
 function printSeats(seats) {
 	for(let z = 0; z < seats.length; z++ ){
-		console.log(seats[z])
+		console.log('barris ' + (z+1) + ' : ', seats[z])
 	}
 
 }
